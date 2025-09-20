@@ -1,0 +1,64 @@
+You are an expert AI app builder. Build a responsive, animated web app called **FinSight AI** with the following:
+
+🔹 Purpose:
+An AI-powered financial co-pilot for MSPs that detects revenue leaks (unbilled work, SLA breaches) and IT cost waste (unused SaaS licenses). 
+
+🔹 Tech Stack:
+- Frontend: Next.js + Tailwind CSS + Framer Motion (animations) + Recharts (charts)
+- Backend: Node.js API + Python microservice for AI analysis
+- AI: LangChain or CrewAI + OpenAI GPT for contract/log/license analysis
+- Storage: SQLite or Postgres for results, AWS S3 for file uploads
+
+🔹 Core Features:
+1. **File Uploads**
+   - Upload contracts (PDF/DOC), work logs (CSV/JSON), license data (CSV/Excel)
+   - Drag-and-drop upload box with animation
+   - Show file preview with progress bar
+
+2. **Contract Intelligence Agent**
+   - AI parses contracts + compares with logs
+   - Flags unbilled work, SLA breaches, mispriced clauses
+   - Displays results in an animated expandable card view
+
+3. **License Waste Finder**
+   - Analyzes SaaS license usage
+   - Detects unused or duplicate subscriptions
+   - Shows savings with animated progress counters
+
+4. **Financial Insights Dashboard**
+   - Responsive dashboard with 2 panels:
+     - MSP Revenue Leakage 💸
+     - Client Cost Waste 💰
+   - Animated charts (Recharts with transitions)
+   - Toggle switch to flip between **MSP View** and **Client View**
+
+5. **AI Proposal Generator**
+   - Generates a draft proposal
+   - Editable in a text editor card
+   - Animated “Copy to Clipboard” button
+
+🔹 Pages:
+- **Home Page**: Hero section with animated headline, “Upload Your Data” button
+- **Upload Page**: Drag-and-drop upload with animation
+- **Analysis Page**: Animated cards showing leaks and waste
+- **Dashboard Page**: Charts with MSP/Client toggle
+- **Proposal Page**: AI-generated proposal, copyable text
+
+🔹 UI/UX Requirements:
+- Fully responsive (mobile + tablet + desktop)
+- Clean, minimal UI with modern design
+- Use Framer Motion for:
+  - Page transitions (fade/slide)
+  - Animated toggles for switching views
+  - Expandable analysis result cards
+  - Counters that animate numbers up
+- Use Tailwind for styling with a professional palette (blue, green, gray shades)
+
+🔹 Demo Data:
+- Include a sample contract (PDF text)
+- Sample work logs (CSV)
+- Sample SaaS license data (CSV)
+- So the app runs a demo without needing external setup
+
+🔹 Deliverable:
+A functional MVP web app with responsive, animated UI, ready to present in a hackathon demo. Focus on usability, wow-factor animations, and financial insights dashboard.
