@@ -36,7 +36,18 @@ export default function Upload() {
     formData.append("file", file);
     formData.append("type", type);
 
-    await apiRequest("POST", "/api/files/upload", formData);
+    // Use fetch directly for FormData uploads instead of apiRequest
+    const response = await fetch("/api/files/upload", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || "Upload failed");
+    }
+
+    return response.json();
   };
 
   const handleDemoDataLoad = async (type: string) => {
