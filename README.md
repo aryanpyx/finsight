@@ -1,3 +1,5 @@
+<img width="1898" height="861" alt="Screenshot 2025-09-21 224445" src="https://github.com/user-attachments/assets/958068fb-9ea3-41db-a1aa-55e662f2e716" />
+<img width="1889" height="834" alt="Screenshot 2025-09-21 224457" src="https://github.com/user-attachments/assets/72559c4d-d923-4bde-b46e-02e40e1d8e7b" />
 # FinSight AI - AI-Powered Financial Co-Pilot for MSPs
 
 ## Overview
