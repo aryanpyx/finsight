@@ -82,3 +82,12 @@ Preferred communication style: Simple, everyday language.
 - **Drizzle Kit**: Database schema management and migrations
 - **ESBuild**: Fast JavaScript bundling for production builds
 - **Replit Plugins**: Development environment enhancements
+
+Copyright (c) 2025 Aryan Pandey 
+ 
+ All rights reserved. 
+ 
+ This project and its source code are proprietary and confidential. 
+ No permission is granted to use, copy, modify, merge, publish, distribute, 
+ or create derivative works from this project in any form, without prior 
+ written consent from the author(s).
